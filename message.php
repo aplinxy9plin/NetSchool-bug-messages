@@ -23,9 +23,6 @@
 		$user_id = $idArray[trim($line)];
 		if($user_id == NULL){
 			echo "Такого не существует! Напиши реальное ФАМИЛИЮ и ИМЯ пользователя\n";
-			/*for ($i=0; $i < 3; $i++) { 
-				$pos = strpos($idArray[], $findme);
-			}*/
 		}else{
 			echo "Thank you, continuing...\n";
 			break;
